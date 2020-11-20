@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src='./custom-script.js'></script>
+        <style>
+            .draggable-list li{
+                width: 40%;
+                height: 30px;
+                border: 1px solid gray;
+                margin-bottom: 10px;
+                padding: 4px;
+                list-style: none;
+                cursor: move;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Drag and Drop List</h1>
+        <ul class="draggable-list">
+            <li id="item-0" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 1</li>
+            <li id="item-1" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 2</li>
+            <li id="item-2" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 3</li>
+            <li id="item-3" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 4</li>
+            <li id="item-4" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 5</li>
+            <li id="item-5" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 6</li>
+            <li id="item-6" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 7</li>
+            <li id="item-7" draggable="true" ondragstart="dragstartHandler(event)" ondragover="dragoverhandler(event)" ondrop="dropHandler(event)">Item 8</li>
+        </ul>
+    </body>
+</html>
